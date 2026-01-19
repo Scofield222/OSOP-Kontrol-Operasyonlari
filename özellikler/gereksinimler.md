@@ -11,4 +11,3 @@
  - Görüntülemek için systemctl cat servis_adı
  - Düzenlemek için sudo systemctl edit servis_adı
  - Tamamını düzenlemek için sudo systemctl edit --full servis_adı
- - 
