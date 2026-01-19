@@ -1,0 +1,13 @@
+##1) Başlat-Durdur-Yeniden Başlatma
+- Başlatmak için sudo systemctl start <servis_adı>
+- Durdurmak için sudo systemctl stop <servis_adı>
+- Yeniden başlatmak için sudo systemctl restart <servis_adı>
+
+##2) Etkinleştirme ve Devre dışı bırakma
+- Etkin hale getirmek için sudo systemctl enable <servis>
+- Devre dışı bırakmak için ise sudo systemctl disable <servis>
+
+##3) Servis Şablonu (Unit Files) görüntüleme ve düzenleme
+- Görüntülemek için systemctl cat <servis_adı>
+- Düzenlemek için sudo systemctl edit <servis_adı>
+- Tamamını düzenlemek için ise sudo systemctl edit --full <servis_adı>
